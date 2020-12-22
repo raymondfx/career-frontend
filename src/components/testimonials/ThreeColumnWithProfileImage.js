@@ -6,6 +6,10 @@ import { ContentWithPaddingXl, Container } from "components/misc/Layouts.js";
 import { SectionHeading as Heading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-7.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-8.svg";
+import { ReactComponent as mailimg } from "images/mail.svg"
+import { ReactComponent as calendarimg } from "images/calendar.svg"
+import { ReactComponent as pageimg } from "images/page-list.svg"
+
 
 const Subheading = tw(SubheadingBase)`text-center`;
 const Testimonials = tw.div`flex flex-col lg:flex-row items-center lg:items-stretch`;
@@ -29,21 +33,21 @@ export default ({
   testimonials = [
     {
       imageSrc:
-      require('images/mail.svg'),
+       "https://inuua-dev.s3.amazonaws.com/images/mail.svg",
       customerName: "Find jobs for you",
       quote:
         "Receive personalized job recommendations.",
     },
     {
       imageSrc:
-      require('images/calendar.svg'),
+       "https://inuua-dev.s3.amazonaws.com/images/page-list.svg",
       customerName: "Attend virtual recruiting events",
       quote:
         "Stand out to employers during virtual fairs and events.",
     },
     {
       imageSrc:
-      require('images/page-list.svg'),
+       "https://inuua-dev.s3.amazonaws.com/images/page-list.svg",
       customerName: "Get hired",
       quote:
         "Apply to jobs meant for students like you.",
