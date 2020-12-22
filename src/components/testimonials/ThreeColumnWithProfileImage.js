@@ -6,9 +6,7 @@ import { ContentWithPaddingXl, Container } from "components/misc/Layouts.js";
 import { SectionHeading as Heading, Subheading as SubheadingBase } from "components/misc/Headings.js";
 import { ReactComponent as SvgDecoratorBlob1 } from "images/svg-decorator-blob-7.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "images/svg-decorator-blob-8.svg";
-import { ReactComponent as mailimg } from "images/mail.svg"
-import { ReactComponent as calendarimg } from "images/calendar.svg"
-import { ReactComponent as pageimg } from "images/page-list.svg"
+
 
 
 const Subheading = tw(SubheadingBase)`text-center`;
