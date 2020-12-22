@@ -38,7 +38,7 @@ export default ({
     },
     {
       imageSrc:
-       "https://inuua-dev.s3.amazonaws.com/images/page-list.svg",
+       "https://inuua-dev.s3.amazonaws.com/images/calendar.svg",
       customerName: "Attend virtual recruiting events",
       quote:
         "Stand out to employers during virtual fairs and events.",
