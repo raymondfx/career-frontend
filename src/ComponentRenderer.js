@@ -2,6 +2,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import AnimationRevealPage from "helpers/AnimationRevealPage.js"
 
+import EmployerList from "components/employer/EmployerList.js";
+
 import EventLandingPage from "demos/EventLandingPage.js";
 import HotelTravelLandingPage from "demos/HotelTravelLandingPage.js";
 import AgencyLandingPage from "demos/AgencyLandingPage.js";
@@ -137,6 +139,11 @@ export const components = {
       imageSrc: HostingCloudLandingPageImageSrc,
       url: "/components/landingPages/HostingCloudLandingPage",
     },
+    EmployerList: {
+      component: EmployerList,
+      imageSrc: HostingCloudLandingPageImageSrc,
+      url: "/components/landingPages/EmployerList"
+    }
   },
 
   innerPages: {
