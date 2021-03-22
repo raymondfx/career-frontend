@@ -1,8 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import AnimationRevealPage from "helpers/AnimationRevealPage.js"
+import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 
-import EmployerList from "components/employer/EmployerList.js";
+import Employer from "pages/Employer.js";
 
 import EventLandingPage from "demos/EventLandingPage.js";
 import HotelTravelLandingPage from "demos/HotelTravelLandingPage.js";
@@ -100,6 +100,7 @@ import FiveColumnWithInputFormFooter from "components/footers/FiveColumnWithInpu
 import FiveColumnWithBackgroundFooter from "components/footers/FiveColumnWithBackground.js";
 import FiveColumnDarkFooter from "components/footers/FiveColumnDark.js";
 import MiniCenteredFooter from "components/footers/MiniCenteredFooter.js";
+import { EmployerInfo } from 'components/employer/EmployerList';
 
 
 export const components = {
@@ -138,11 +139,6 @@ export const components = {
       component: HostingCloudLandingPage,
       imageSrc: HostingCloudLandingPageImageSrc,
       url: "/components/landingPages/HostingCloudLandingPage",
-    },
-    EmployerList: {
-      component: EmployerList,
-      imageSrc: HostingCloudLandingPageImageSrc,
-      url: "/components/landingPages/EmployerList"
     }
   },
 
@@ -152,6 +148,11 @@ export const components = {
       imageSrc: LoginPageImageSrc,
       scrollAnimationDisabled: true,
       url: "/components/innerPages/LoginPage",
+    },
+    Employer: {
+      component: Employer,
+      imageSrc: HostingCloudLandingPageImageSrc,
+      url: "/components/innerPages/Employer"
     },
     SignupPage: {
       component: SignupPage,

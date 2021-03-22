@@ -75,8 +75,8 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
       <NavLink href="/#">For Students</NavLink>
       <NavLink href="/#">For Employers</NavLink>
       <NavLink href="/#">Career Centers</NavLink>
-      <NavLink href="/#">Who's Hiring</NavLink>
-      <NavLink href="http://localhost:3000/components/innerPages/LoginPage" tw="lg:ml-12!">
+      <NavLink href="/components/innerPages/Employer">Who's Hiring</NavLink>
+      <NavLink href="/components/innerPages/LoginPage" tw="lg:ml-12!">
         Login
       </NavLink>
       <PrimaryLink css={roundedHeaderButton && tw`rounded-full`}href="http://localhost:3000/components/innerPages/SignupPage#">Sign Up</PrimaryLink>

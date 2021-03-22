@@ -113,7 +113,7 @@ export default ({
               </p>
               <p tw="mt-8 text-sm text-gray-600 text-center">
                 Dont have an account?{" "}
-                <a href="http://localhost:3000/components/innerPages/SignupPage" tw="border-b border-gray-500 border-dotted">
+                <a href="/components/innerPages/SignupPage" tw="border-b border-gray-500 border-dotted">
                   Sign Up
                 </a>
               </p>
